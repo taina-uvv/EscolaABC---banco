@@ -5,8 +5,8 @@ import { ProfessorComponent } from './professor/professor';
 import { DashboardComponent } from './dashboard/dashboard/dashboard';
 
 export const routes: Routes = [
-    {path: 'login', component: Principal},
-    { path: '', component: DashboardComponent },
-    {path: 'alunos', component: AlunoComponent},
-    {path: 'professores', component: ProfessorComponent},
+    {path: '', component: Principal},
+    { path: 'dashboard', component: DashboardComponent },
+    {path: 'dashboard/alunos', component: AlunoComponent},
+    {path: 'dashboard/professores', component: ProfessorComponent},
 ];
